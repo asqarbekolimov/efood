@@ -4,8 +4,20 @@
 @tailwind utilities;
 *{
   scroll-behavior: smooth;
+  transition: all .5s ease;
 }
 .btn{
   display: inline-block;
   cursor: pointer;
+}
+.sidebar{
+  animation: slide-sidebar .5s cubic-bezier(0.52, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-sidebar {
+  0%{
+    transform: translateY(100px);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
