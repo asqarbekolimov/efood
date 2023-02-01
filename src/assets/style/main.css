@@ -6,6 +6,21 @@
   scroll-behavior: smooth;
   transition: all .5s ease;
 }
+::-webkit-scrollbar {
+	width: 5px;
+	height: 3px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgb(114, 113, 113);
+	border-radius: 10px;
+	height: 200px;
+}
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+.App{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.26) 0%, rgba(255, 255, 255, 0.38) 100%);
+}
 .btn{
   display: inline-block;
   cursor: pointer;
