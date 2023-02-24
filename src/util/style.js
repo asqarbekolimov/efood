@@ -5,4 +5,5 @@ export const styles = {
   paddinX: "px-24",
   heading: "font-rubik font-medium capitalize text-primary",
   paragraph: "font-normal text-primary",
+  borderRadius: "30px 30px 1px 30px",
 };

@@ -1,14 +1,20 @@
 import {
   AsianFood,
+  blaze,
   burger1,
   burger2,
   burger3,
   burger4,
   burger5,
   burgerfood,
+  dions,
+  kfc,
   pizza,
+  ranch,
+  RoyalBurger,
   sandwich,
   setMenu,
+  start,
 } from "../assets";
 
 export const navigationLinks = [
@@ -53,11 +59,11 @@ export const categoryMenu = [
     title: "Asian Food",
     icon: [AsianFood],
   },
-  {
-    id: "Set Menu",
-    title: "Set Menu",
-    icon: [setMenu],
-  },
+  // {
+  //   id: "Set Menu",
+  //   title: "Set Menu",
+  //   icon: [setMenu],
+  // },
 ];
 
 export const products = [
@@ -102,5 +108,43 @@ export const products = [
     descrption: "Pizza",
     category: "pizza",
     price: "$00",
+  },
+];
+export const topFoods = [
+  {
+    id: "1",
+    img: [blaze],
+    descrption: "Blaze Pizza",
+    date: "11.00 AM - 10.00 PM",
+  },
+  {
+    id: "2",
+    img: [ranch],
+    descrption: "Pizza Ranch",
+    date: "09.00 AM - 10.00 PM",
+  },
+  {
+    id: "3",
+    img: [dions],
+    descrption: "	Dion’s Pizza Hut",
+    date: "10.00 AM - 12.00 PM",
+  },
+  {
+    id: "4",
+    img: [RoyalBurger],
+    descrption: "Royel Burger",
+    date: "11.00 AM - 10.00 PM",
+  },
+  {
+    id: "5",
+    img: [kfc],
+    descrption: "KFC Restaurant",
+    date: "09.00 AM - 10.00 PM",
+  },
+  {
+    id: "6",
+    img: [start],
+    descrption: "Star Food",
+    date: "10.00 AM - 12.00 PM",
   },
 ];

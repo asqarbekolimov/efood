@@ -4,9 +4,7 @@ import { styles } from "../util/style";
 
 function CategoryMenu({ filterItem }) {
   return (
-    <div
-      className={`container  m-auto ${styles.paddinX} mb-10 flex gap-10 justify-center flex-row  flex-wrap`}
-    >
+    <>
       {categoryMenu.map((item) => {
         return (
           <div
@@ -18,7 +16,7 @@ function CategoryMenu({ filterItem }) {
           </div>
         );
       })}
-    </div>
+    </>
   );
 }
 
