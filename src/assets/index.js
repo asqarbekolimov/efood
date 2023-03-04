@@ -25,3 +25,6 @@ export { default as dions } from "./img/topFoods/dions.png";
 export { default as kfc } from "./img/topFoods/kfc.png";
 export { default as ranch } from "./img/topFoods/ranch.png";
 export { default as start } from "./img/topFoods/start.png";
+export { default as phoneImg } from "./img/phoneImg.png";
+export { default as appStore } from "./img/svg/AStore.svg";
+export { default as playmarket } from "./img/svg/GPlay.svg";

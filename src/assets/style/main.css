@@ -25,19 +25,21 @@
     rgba(255, 255, 255, 0.38) 100%
   );
 }
-.btn {
-  display: inline-block;
-  cursor: pointer;
+@layer components {
+  .btn {
+    @apply inline-block cursor-pointer;
+  }
+  .roundedBtn {
+    border-radius: 30px 30px 1px 30px;
+  }
+  .borderRight {
+    border-bottom-right-radius: 53px;
+  }
+  .sidebar {
+    animation: slide-sidebar 0.5s cubic-bezier(0.52, 0.46, 0.45, 0.94) both;
+  }
 }
-.roundedBtn {
-  border-radius: 30px 30px 1px 30px;
-}
-.borderRight {
-  border-bottom-right-radius: 53px;
-}
-.sidebar {
-  animation: slide-sidebar 0.5s cubic-bezier(0.52, 0.46, 0.45, 0.94) both;
-}
+
 @keyframes slide-sidebar {
   0% {
     transform: translateY(100px);

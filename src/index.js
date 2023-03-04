@@ -4,3 +4,4 @@ export { default as Category } from "./layout/category";
 export { default as CategoryMenu } from "./components/category-menu";
 export { default as SetMenu } from "./components/set-menu";
 export { default as TopFoods } from "./components/topFoods";
+export { default as MobileApp } from "./layout/mobile-app";

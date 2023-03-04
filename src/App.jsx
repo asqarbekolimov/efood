@@ -1,4 +1,4 @@
-import { Category, Header, Hero, TopFoods } from "./";
+import { Category, Header, Hero, MobileApp, TopFoods } from "./";
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <Hero />
       <Category />
       <TopFoods />
+      <MobileApp />
     </div>
   );
 }
