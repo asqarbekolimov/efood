@@ -5,14 +5,14 @@ import { styles } from "../util/style";
 
 function TopFoods() {
   return (
-    <section className="flex-col flex justify-center items-center ">
+    <section className="flex-col flex justify-center items-center px-5">
       <div
         div
         className={`${styles.heading} ${styles.paddinX} text-center my-14 text-4xl`}
       >
         Top Food <span className={`text-active`}>restaurant</span>
       </div>
-      <div className="grid md:grid-cols-3 grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-3 grid-cols-2 gap-6">
         {topFoods.map((item) => (
           <div key={item.id}>
             <img src={item.img} alt="" />

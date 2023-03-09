@@ -4,8 +4,8 @@ import { styles } from "../util/style";
 
 const Subscribe = () => {
   return (
-    <div className={` ${styles.paddinX}`}>
-      <div className="bg-[#FF7F56] my-10 py-14 rounded-2xl flex justify-center items-center flex-col">
+    <div className="px-5 md:px-24">
+      <div className="bg-[#FF7F56] my-10 space-x-10 py-14 rounded-2xl flex justify-center items-center flex-col text-center">
         <h1 className="text-4xl mb-3 font-semibold text-white">
           Subscribe to get the Latest Offer
         </h1>

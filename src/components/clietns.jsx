@@ -3,7 +3,7 @@ import { client, qout1, qout2, ArrowLeft, ArrowRight } from "../assets";
 
 const Clietns = () => {
   return (
-    <div className="mx-24">
+    <div className="mx-24 mt-16">
       <h1 className="text-center font-rubik text-4xl font-medium">
         What Our Client Are <span className="text-secondary">Saying</span>{" "}
       </h1>
@@ -11,7 +11,7 @@ const Clietns = () => {
         <div className="w-80">
           <img src={client} alt="" className="w-80" />
         </div>
-        <div className="relative w-1/2 ">
+        <div className="relative w-auto md:w-1/2 ">
           <img src={qout1} alt="" className="absolute -left-8 top-0" />
           <p className="text-primary text-xl">
             EFood has the most intriguing food order system in the country. UI
