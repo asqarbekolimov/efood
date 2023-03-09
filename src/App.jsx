@@ -1,4 +1,12 @@
-import { Category, Header, Hero, MobileApp, TopFoods } from "./";
+import {
+  Category,
+  Clietns,
+  Header,
+  Hero,
+  MobileApp,
+  Subscribe,
+  TopFoods,
+} from "./";
 
 function App() {
   return (
@@ -8,6 +16,8 @@ function App() {
       <Category />
       <TopFoods />
       <MobileApp />
+      <Clietns />
+      <Subscribe />
     </div>
   );
 }

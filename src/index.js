@@ -5,3 +5,5 @@ export { default as CategoryMenu } from "./components/category-menu";
 export { default as SetMenu } from "./components/set-menu";
 export { default as TopFoods } from "./components/topFoods";
 export { default as MobileApp } from "./layout/mobile-app";
+export { default as Clietns } from "./components/clietns";
+export { default as Subscribe } from "./components/subscribe";
