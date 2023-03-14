@@ -1,6 +1,7 @@
 import {
   Category,
   Clietns,
+  Footer,
   Header,
   Hero,
   MobileApp,
@@ -18,6 +19,7 @@ function App() {
       <MobileApp />
       <Clietns />
       <Subscribe />
+      <Footer />
     </div>
   );
 }

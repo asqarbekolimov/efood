@@ -7,3 +7,4 @@ export { default as TopFoods } from "./components/topFoods";
 export { default as MobileApp } from "./layout/mobile-app";
 export { default as Clietns } from "./components/clietns";
 export { default as Subscribe } from "./components/subscribe";
+export { default as Footer } from "./layout/footer";
